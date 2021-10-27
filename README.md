@@ -2,7 +2,7 @@ Notes for the reviewer:
 
 # Dependencies
 Java 11 <br/>
-Gradle 3.5 - Included within project <br/>
+Gradle  - Included within project <br/>
 
 # Martian Robots
 This is a CLI implementation of problem. <br/>
