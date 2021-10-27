@@ -30,8 +30,9 @@ Please run RobotApplication.java.
 Improvements Required:
 
 1. Some code refactor is required to improve the validation of commands. It can be done using predicates instead of 'if' blocks.
-2. Testing the command-line support is not straightforward without using a third party library. I would have loved to have the end to end test for commandline but had to leave it at InstructionExecutor.
-3. Error messages are mostly covered but some rounding the edges is still left to do (like invalid commands might null at the moment)
-4. Robot.moveForward() method doesn't look very clean.  
+2. Having a pool of Position objects would be cool similar to String pool.
+3. Testing the command-line support is not straightforward without using a third party library. I would have loved to have the end to end test for commandline but had to leave it at InstructionExecutor.
+4. Error messages are mostly covered but some rounding the edges is still left to do (like invalid commands return null at the moment)
+5. Robot.moveForward() method doesn't look very clean, can be refactored further.
 
 
