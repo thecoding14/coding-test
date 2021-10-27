@@ -1,22 +1,22 @@
 Notes for the reviewer:
 
 # Dependencies
-Java 11
-Gradle 3.5 - Included within project
+Java 11 <br/>
+Gradle 3.5 - Included within project <br/>
 
 # Martian Robots
-This is a CLI implementation of problem.
+This is a CLI implementation of problem. <br/>
 
 
 # Running the project 
 
 ## Build and run using gradle
-Build the project using the following command from the project folder
+Build the project using the following command from the project folder <br/>
 ```
 ./gradlew build
 ```
 
-To run the project from command line :
+To run the project from command line : <br/>
 
 ```
 cd build/libs
@@ -25,7 +25,7 @@ java -jar coding-test-0.0.1-SNAPSHOT.jar
 
 
 ## Using an IDE
-Please run RobotApplication.java.
+Please run RobotApplication.java.<br/>
 
 # Improvements Required:
 
