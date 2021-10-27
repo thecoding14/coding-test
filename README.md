@@ -1,16 +1,16 @@
 Notes for the reviewer:
 
-#Dependencies
+# Dependencies
 Java 11
 Gradle 3.5 - Included within project
 
-#Martian Robots
+# Martian Robots
 This is a CLI implementation of problem.
 
 
-#Running the project 
+# Running the project 
 
-##Build and run using gradle
+## Build and run using gradle
 Build the project using the following command from the project folder
 ```
 ./gradlew build
@@ -24,10 +24,10 @@ java -jar coding-test-0.0.1-SNAPSHOT.jar
 ```
 
 
-##Using an IDE
+## Using an IDE
 Please run RobotApplication.java.
 
-Improvements Required:
+# Improvements Required:
 
 1. Some code refactor is required to improve the validation of commands. It can be done using predicates instead of 'if' blocks.
 2. Having a pool of Position objects would be cool similar to String pool.
